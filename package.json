@@ -2,7 +2,9 @@
   "name": "@webhook-test/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "webhook-test:build:production": "npx nx run webhook-test:build"
+  },
   "private": true,
   "dependencies": {
     "@nx/next": "16.5.2",
